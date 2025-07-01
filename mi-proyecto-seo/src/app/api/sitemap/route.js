@@ -1,5 +1,5 @@
-// mi-proyecto-seo/src/app/api/sitemap/route.js
-const BASE_URL = "https://mi-sitio.com"; 
+// src/app/api/sitemap/route.js
+const BASE_URL = "https://dawa-lab14.vercel.app"; 
 
 export async function GET() {
   const urls = ["/", "/blog", "/contacto"]; 
