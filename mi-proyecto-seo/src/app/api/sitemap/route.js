@@ -1,5 +1,5 @@
 // src/app/api/sitemap/route.js
-const BASE_URL = "https://dawa-lab14.vercel.app"; // ¡IMPORTANTE: CAMBIA ESTO A TU DOMINIO REAL DE VERCEL!
+const BASE_URL = "https://mi-proyecto-seo.netlify.app"; // ¡IMPORTANTE: CAMBIA ESTO A TU DOMINIO REAL DE NETLIFY!
 
 export async function GET() {
   const urls = ["/", "/blog", "/contacto"]; // Rutas dinámicas
