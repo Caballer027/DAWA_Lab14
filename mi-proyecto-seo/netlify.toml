@@ -1,0 +1,7 @@
+# netlify.toml
+[build]
+  command = "next build"
+  publish = ".next" # Directorio donde Next.js pone los archivos de build
+
+[[plugins]]
+package = "@netlify/plugin-nextjs" # Asegura que se use el plugin oficial de Next.js
