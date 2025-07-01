@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blog de Desarrollo Web',
     description: 'Explora temas avanzados de optimización y SEO.',
-    images: ['/images/blog-image.png'],
-    type: 'website',
+    images: ['/images/blog-image.png'], // Asegúrate de tener esta imagen en /public/images/
+    type: 'article', // Usado 'article' o 'website' para compatibilidad con Next.js Metadata
   },
 };
 

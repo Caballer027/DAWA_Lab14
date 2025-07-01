@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Contáctanos',
     description: 'Estamos aquí para ayudarte.',
     images: ['/images/contact-image.png'], // Asegúrate de tener esta imagen en /public/images/
-    type: 'website',
+    type: 'website', // Usado 'website' para compatibilidad con Next.js Metadata
   },
 };
 

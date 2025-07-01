@@ -1,8 +1,8 @@
 // src/app/api/sitemap/route.js
-const BASE_URL = "https://dawa-lab14.vercel.app"; 
+const BASE_URL = "https://dawa-lab14.vercel.app"; // ¡IMPORTANTE: CAMBIA ESTO A TU DOMINIO REAL DE VERCEL!
 
 export async function GET() {
-  const urls = ["/", "/blog", "/contacto"]; 
+  const urls = ["/", "/blog", "/contacto"]; // Rutas dinámicas
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${urls
